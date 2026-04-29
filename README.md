@@ -84,8 +84,14 @@ Tüm yapı Docker ile konteynerize edilmiştir. **Docker Compose** ile yönetile
 <img width="1918" height="770" alt="image" src="https://github.com/user-attachments/assets/9137e41b-cacb-4c46-b7db-3c5de374d4ad" />
 
 ---
+##  Kullanılan Programlar & Diller
+DOCKER
+PGADMIN
+PYTHON
+HTML 
+SQL 
 
-## 🏁 Başlarken (Getting Started)
+##  Başlarken (Getting Started)
 
 ### Ön Koşullar
 *   Docker & Docker Compose yüklü olmalıdır.
