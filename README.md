@@ -3,7 +3,8 @@
 
 **Kawien AI: Intelligent Note Pro**, geleneksel not alma sürecini bir bilişsel davranış analiz aracına dönüştürmek için tasarlanmış, mikroservis tabanlı son teknoloji bir ekosistemdir. Platform, kullanıcı düşünce kalıplarını değerlendirmek ve gerçek zamanlı bilişsel içgörüler sağlamak için deterministik bir yapay zeka motoru kullanır.
 
-![Main Dashboard](https://github.com/user-attachments/assets/6fb5a57c-11a5-453d-8e13-53c1b7b42e9b)
+<img width="1911" height="915" alt="image" src="https://github.com/user-attachments/assets/aea5529c-118a-43f2-9dc4-f537013cb394" />
+
 
 ---
 
@@ -40,7 +41,8 @@ Sistem, katmanlar arasında sorumlulukların net ayrılmasını sağlayan **Clea
 ---
 
 ## Yapay Zeka Sistemi (AI System Definition)
-![AI Logic](https://github.com/user-attachments/assets/a6a68446-9b85-43f4-9cfb-8fac323f63ee)
+<img width="1642" height="906" alt="image" src="https://github.com/user-attachments/assets/05d8859b-5489-42a8-ab5b-63e7aedfc01d" />
+
 
 Sistemimizdeki bilişsel analizler şu akademik temellere dayanmaktadır:
 *   **Mueller, P. A., & Oppenheimer, D. M. (2014):** Not alma biçimlerinin bilişsel etkisi.
