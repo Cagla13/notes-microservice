@@ -1,13 +1,13 @@
-AI Intelligent Note Pro - Ultra Dashboard
+*AI Intelligent Note Pro - Ultra Dashboard*
 AI Intelligent Note Pro is a cutting-edge, microservice-based ecosystem designed to transform traditional note-taking into a cognitive behavioral analysis tool. The platform utilizes a deterministic AI engine to evaluate user thought patterns and provide real-time cognitive insights.
 
 <img width="945" height="461" alt="image" src="https://github.com/user-attachments/assets/6fb5a57c-11a5-453d-8e13-53c1b7b42e9b" />
 
 
- Project Overview
+** Project Overview**
 This project implements a high-performance microservice stack, orchestrated with Docker, secured with JWT, and automated via a robust CI/CD pipeline. It features a "Cognitive Intelligence Dashboard" that analyzes user data to determine brain dominance and memory metrics.
 
- Key Features
+*** Key Features***
 Cognitive AI Engine: Analyzes user inputs to calculate Retention, Detail, and Speed scores.
 
 Brain Dominance Analysis: Visualizes "Left-Brained" vs "Right-Brained" tendencies using dynamic SVG filters.
@@ -35,18 +35,21 @@ Gateway (Nginx): Acts as a reverse proxy, orchestrating traffic between services
 <img width="945" height="453" alt="image" src="https://github.com/user-attachments/assets/f9e17e9e-c0be-4492-a810-22c4bb7ce70d" />
 
 
-AI PART SYSTEMS BASIC DEFINATION 
+*AI PART SYSTEMS BASIC DEFINATION *
 <img width="945" height="365" alt="image" src="https://github.com/user-attachments/assets/a6a68446-9b85-43f4-9cfb-8fac323f63ee" />
-SOURCES 
+
+***SOURCES ***
 Mueller, P. A., & Oppenheimer, D. M. (2014). The pen is mightier than the keyboard. Psychological Science, 25(6), 1159-1168.
- Tulving, E., et al. (1994). Hemispheric encoding/retrieval asymmetry in episodic memory. PNAS, 91(6), 2016-2020.
+
+Tulving, E., et al. (1994). Hemispheric encoding/retrieval asymmetry in episodic memory. PNAS, 91(6), 2016-2020.
+ 
 Rathod et al. (2016)
 “Novel insights into the effect of vitamin B12 and omega-3 fatty acids on brain function”
 
 
 
 
-1. Complete CI/CD Pipeline
+**1. Complete CI/CD Pipeline**
 We implemented a professional pipeline using GitHub Actions. Every "push" to the main branch triggers:
 
 Environment Setup: Virtual environment and dependency installation.
