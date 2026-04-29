@@ -40,7 +40,7 @@ Sistem, katmanlar arasında sorumlulukların net ayrılmasını sağlayan **Clea
 4.  **Gateway (Nginx):** Ters ana sunucu (reverse proxy) görevi görerek servisler arasındaki trafiği yönetir.
 
 ![System Flow](https://github.com/user-attachments/assets/e9126675-78fa-429d-94fa-6d0d27f05c80)
-![DB Schema](https://github.com/user-attachments/assets/f9e17e9e-c0be-4492-a810-22c4bb7ce70d)
+
 
 ---
 
@@ -64,6 +64,8 @@ GitHub Actions kullanılarak profesyonel bir boru hattı kurulmuştur. Her "push
 *   **Linting & Formatting:** Kod kalitesi kontrolleri.
 *   **Otomatik Testler:** Test paketinin yürütülmesi.
 *   **Konteyner Derleme:** Docker imajlarının doğrulanması.
+    <img width="1882" height="773" alt="image" src="https://github.com/user-attachments/assets/38349cee-7a0b-4456-9fc6-27b3836b919e" />
+
 
 <img width="797" height="428" alt="image" src="https://github.com/user-attachments/assets/2c429e9a-3d60-4a6c-838a-e750cf5478e9" />
 
