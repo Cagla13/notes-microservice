@@ -1,7 +1,63 @@
 #  Intelligent Note Pro
 ### *Ultra Cognitive Dashboard & Microservice Ecosystem*
 
-**Kawien AI: Intelligent Note Pro**, geleneksel not alma sürecini bir bilişsel davranış analiz aracına dönüştürmek için tasarlanmış, mikroservis tabanlı son teknoloji bir ekosistemdir. Platform, kullanıcı düşünce kalıplarını değerlendirmek ve gerçek zamanlı bilişsel içgörüler sağlamak için deterministik bir yapay zeka motoru kullanır.
+## Executive Summary
+
+Bu projeye başlamadan önce, ders gereksinimlerini (Clean Architecture, Containerization, CI/CD vb.) en iyi karşılayacak senaryoyu belirlemek için kısa bir araştırma yaptık. Araştırmamız sonucunda, bir Not Yönetim Sistemi ilk bakışta basit görünse de, arka planda karmaşık bir mikroservis mimarisi kurmak, veritabanı ilişkilerini yönetmek ve üzerine “Akıllı Analiz” katmanları eklemek için oldukça uygun olduğunu fark ettik. Tasarım fikrimiz araştırma projemizden esinlenmiştir, ancak tüm kod ve tasarım bize aittir. Tasarım kısmı için HTML kullandık. Container yapısı için Docker kullandık. Backend tarafında Python ile Visual Studio Code kullanarak temiz bir mimari oluşturduk. Veritabanı tarafında ise proje kapsamında belirlenen tabloları oluşturmak için SQLite kullandık. Sistemimiz ayrıca kullanıcıların not oluşturmasına ve notlara aciliyet seviyesi atamasına olanak tanır. Bunun yanında, önemli notları öne çıkaran yapay zekâ destekli akıllı sıralama sistemi tasarladık.
+
+
+
+## Product Description and Vision
+PROBLEM
+Günlük akademik ve profesyonel yaşamda, görevleri ve notları düzenleme ve yönetme konusunda sıkça problemler yaşanmaktadır. Çoğu zaman kritik bilgiler, kağıt notlar, düz metin dosyaları veya önceliklendirme özelliği olmayan basit uygulamalarda dağınık şekilde tutulur. Bu durum, son teslim tarihlerini ve acil görevleri kaçırmaya neden olabilir ve zaman yönetimini olumsuz etkiler.
+
+Geleneksel not alma yöntemlerinde, kullanıcılar yapılandırılmış bilgi saklama, aciliyet seviyeleri ve akıllı önceliklendirme gibi imkanlara sahip değildir. Bilgi miktarı arttıkça, kullanıcılar neyin kritik olup olmadığını ayırt etmekte zorlanabilir.
+
+Bununla birlikte, bazı modern sistemler sağlık veya verimlilik önerileri sunmaya çalışsa da, bu tür önerilerin her kullanıcı için %100 doğru ve geçerli olamayacağı unutulmamalıdır. Her bireyin fiziksel ve psikolojik durumu farklı olduğu için, bu öneriler kesin doğrular olarak değil, destekleyici nitelikte değerlendirilmelidir. Bu nedenle, akademik ve bilimsel çalışmalar esas alınmalı ve bu tür özellikler %100 onaylanmış çözümler olarak kabul edilmemelidir.
+
+## Solution: Smart Notes Application
+Projemiz, bu önemli probleme akıllı bir not uygulaması geliştirerek basit ve etkili bir çözüm sunmaktadır. Bu uygulama, kullanıcıların notlarını yapılandırılmış bir şekilde saklaması ve yönetmesi için merkezi bir platform sağlar.
+
+Uygulama, kullanıcılara her nota bir aciliyet seviyesi atama imkanı sunarak önceliklerini net bir şekilde belirlemelerine yardımcı olur. Ayrıca, yapay zekâ tabanlı akıllı sıralama özelliği sayesinde en kritik notlar listenin en üstünde gösterilir.
+
+Bunun yanı sıra, sistem yapay zekâ tabanlı önerilerin (verimlilik veya sağlık gibi) kesin kararlar olmadığının bilinciyle tasarlanmıştır. Sistem %100 doğruluk iddiasında bulunmaz, aksine kullanıcıların daha bilinçli kararlar almasına yardımcı olmayı hedefler.
+
+Uygulama, backend geliştirme için Python, veri depolama için SQLite kullanmaktadır. Docker ise containerization için kullanılarak uygulamanın farklı ortamlarda tutarlı bir şekilde çalışmasını sağlar. Genel olarak sistem, Clean Architecture ve REST API prensiplerine uygun, hafif, ölçeklenebilir ve mikroservis tabanlı bir çözüm sunmayı amaçlamaktadır.
+
+## Target Audience
+Üniversite öğrencileri ve ödevleri ile son teslim tarihleri
+Profesyoneller ve günlük görevleri ile sorumlulukları
+Küçük ekipler ve görev takip ihtiyaçları
+Yapılandırılmış ve akıllı not alma ihtiyacı olan kullanıcılar
+
+
+
+
+
+ 
+ 
+## Core Features and Capabilities 
+**Authentication Structure** 
+Şu anda sistem, tüm işlemleri yürütmek ve erişimi sağlamak için tek bir Admin hesabına sahiptir. Notlarla ilgili tüm işlemler bu doğrulanmış hesap üzerinden gerçekleştirilir. Sistem şu an yalnızca tek bir yetkilendirme yapısıyla çalışmaktadır, ancak ölçeklenebilir şekilde tasarlanmıştır. Bu nedenle proje genişletildiğinde, sıfırdan başlamak gerekmeden ek erişim kontrol mekanizmaları sisteme dahil edilebilir.
+
+**Urgency Level Classification** 
+Her notun bir aciliyet seviyesi bulunmaktadır. Bu sayede kullanıcılar hangi işlerin hemen yapılması gerektiğini ve hangilerinin bekleyebileceğini anında görebilir. Bu durum görevlerin daha iyi organize edilmesini sağlar ve günlük akışı daha düzenli hale getirir.
+
+  **AI-Driven Smart Sorting**
+Akıllı sıralama, sistemin öne çıkan özelliklerinden biridir. Notları sıralamak için yapay zekâ kullanır. Her not, aciliyet ve önem derecesine göre değerlendirilir. Bu sayede en kritik not en üstte yer alır. Bu özellik, önemli görevlerin gözden kaçırılmasını önler.Ayrıca alınan notlar ve verilen veriler sayesinde beyninin hangi yönü unutmaya yatkın nasıl geliştirirsin .
+
+ **CRUD Operations**
+Sistem; oluşturma (create), okuma (read), güncelleme (update) ve silme (delete) işlemlerini destekler. Kullanıcılar yeni not ekleyebilir, mevcut notları görüntüleyebilir, güncelleyebilir ve silebilir.
+
+ **RESTful API Architecture**
+Sistem, tüm işlevlerine REST API üzerinden erişim sağlar. Bu sayede farklı istemci uygulamalarla kolayca entegre edilebilir. Bu özellik, sistemi modüler ve esnek hale getirir. 
+ 
+ **Database Management**
+Sistem, notları saklamak için bir veritabanına sahiptir. SQLite & PGADMIN veritabanı yönetim sistemi olarak kullanılmaktadır. Bu sayede veriler düzenli ve organize bir şekilde tutulur. 
+
+**Containerization Support**
+Sistem container yapısına sahiptir. Bu sayede farklı ortamlarda tutarlı bir şekilde çalışabilir. Containerization aracı olarak Docker kullanılmaktadır.
+
 <img width="1886" height="872" alt="image" src="https://github.com/user-attachments/assets/5c0581d5-50d8-431a-aae4-5168d5dd2346" />
 
 
