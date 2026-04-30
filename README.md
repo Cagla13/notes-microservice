@@ -2,7 +2,8 @@
 ### *Ultra Cognitive Dashboard & Microservice Ecosystem*
 
 **Kawien AI: Intelligent Note Pro**, geleneksel not alma sürecini bir bilişsel davranış analiz aracına dönüştürmek için tasarlanmış, mikroservis tabanlı son teknoloji bir ekosistemdir. Platform, kullanıcı düşünce kalıplarını değerlendirmek ve gerçek zamanlı bilişsel içgörüler sağlamak için deterministik bir yapay zeka motoru kullanır.
-<img width="768" height="368" alt="image" src="https://github.com/user-attachments/assets/e749afb6-ecfb-48e1-8257-748720dec185" />
+<img width="1886" height="872" alt="image" src="https://github.com/user-attachments/assets/5c0581d5-50d8-431a-aae4-5168d5dd2346" />
+
 
 <img width="1911" height="915" alt="image" src="https://github.com/user-attachments/assets/aea5529c-118a-43f2-9dc4-f537013cb394" />
 
