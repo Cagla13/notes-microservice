@@ -15,6 +15,7 @@ Bu proje; **Docker** ile orkestra edilen, **JWT** ile güvenliği sağlanan ve *
 
 Öne çıkan özelliği, kullanıcı verilerini analiz ederek beyin baskınlığını ve hafıza metriklerini belirleyen **"Bilişsel Zeka Paneli" (Cognitive Intelligence Dashboard)**'dir.
 <img width="1642" height="906" alt="image" src="https://github.com/user-attachments/assets/05d8859b-5489-42a8-ab5b-63e7aedfc01d" />
+<img width="1720" height="912" alt="image" src="https://github.com/user-attachments/assets/612bcf43-ed0b-4a59-a97e-448b2e11aeaa" />
 
 ---
 
