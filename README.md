@@ -1,4 +1,4 @@
-# Kawien AI: Intelligent Note Pro
+#  Intelligent Note Pro
 ### *Ultra Cognitive Dashboard & Microservice Ecosystem*
 
 **Kawien AI: Intelligent Note Pro**, geleneksel not alma sürecini bir bilişsel davranış analiz aracına dönüştürmek için tasarlanmış, mikroservis tabanlı son teknoloji bir ekosistemdir. Platform, kullanıcı düşünce kalıplarını değerlendirmek ve gerçek zamanlı bilişsel içgörüler sağlamak için deterministik bir yapay zeka motoru kullanır.
@@ -72,6 +72,7 @@ GitHub Actions kullanılarak profesyonel bir boru hattı kurulmuştur. Her "push
 
 ### 2. Otomatik Testler
 Sistem, AI Mantık Motorunu ve API uç noktalarını (endpoints) doğrulayan birim testleri içerir. Bu, puanlama algoritmasının her güncellemede doğru kalmasını sağlar.
+<img width="765" height="316" alt="image" src="https://github.com/user-attachments/assets/08ef17a1-4257-4056-869c-4fc2166b4483" />
 
 ### 3. Konteyner Orkestrasyonu
 Tüm yapı Docker ile konteynerize edilmiştir. **Docker Compose** ile yönetilen bu yapı, servislerin izole edildiği ve birbirine güvenli ağlarla bağlandığı "bulut benzeri" bir ortam sağlar.
