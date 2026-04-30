@@ -2,9 +2,11 @@
 ### *Ultra Cognitive Dashboard & Microservice Ecosystem*
 
 **Kawien AI: Intelligent Note Pro**, geleneksel not alma sürecini bir bilişsel davranış analiz aracına dönüştürmek için tasarlanmış, mikroservis tabanlı son teknoloji bir ekosistemdir. Platform, kullanıcı düşünce kalıplarını değerlendirmek ve gerçek zamanlı bilişsel içgörüler sağlamak için deterministik bir yapay zeka motoru kullanır.
+<img width="768" height="368" alt="image" src="https://github.com/user-attachments/assets/e749afb6-ecfb-48e1-8257-748720dec185" />
 
 <img width="1911" height="915" alt="image" src="https://github.com/user-attachments/assets/aea5529c-118a-43f2-9dc4-f537013cb394" />
 
+<img width="1916" height="948" alt="image" src="https://github.com/user-attachments/assets/82079a07-a9a9-4158-b2b8-461ce7159982" />
 
 ---
 
@@ -12,6 +14,7 @@
 Bu proje; **Docker** ile orkestra edilen, **JWT** ile güvenliği sağlanan ve **GitHub Actions** üzerinden sağlam bir **CI/CD** hattı ile otomatikleştirilen yüksek performanslı bir mikroservis yığınını (stack) uygular. 
 
 Öne çıkan özelliği, kullanıcı verilerini analiz ederek beyin baskınlığını ve hafıza metriklerini belirleyen **"Bilişsel Zeka Paneli" (Cognitive Intelligence Dashboard)**'dir.
+<img width="1642" height="906" alt="image" src="https://github.com/user-attachments/assets/05d8859b-5489-42a8-ab5b-63e7aedfc01d" />
 
 ---
 
@@ -45,7 +48,6 @@ Sistem, katmanlar arasında sorumlulukların net ayrılmasını sağlayan **Clea
 ---
 
 ## Yapay Zeka Sistemi (AI System Definition)
-<img width="1642" height="906" alt="image" src="https://github.com/user-attachments/assets/05d8859b-5489-42a8-ab5b-63e7aedfc01d" />
 
 
 Sistemimizdeki bilişsel analizler şu akademik temellere dayanmaktadır:
